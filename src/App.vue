@@ -48,14 +48,14 @@ button {
 <template>
   <check></check>
   <div id="first_line" class="fonts">
-    <h1>2048</h1>
+    <h1>华容道</h1>
     <div id="score" class="font_white">
       <shows name="完成度"></shows>
       <shows name="步数"></shows>
     </div>
   </div>
   <div id="last_line" class="fonts">
-    <div id="num">合并数字达到2048</div>
+    <div id="num">请还原数字华容道</div>
     <button class="font_white" @click="()=>reStart(false)">重新开始游戏</button>
   </div>
   <div id="table">
